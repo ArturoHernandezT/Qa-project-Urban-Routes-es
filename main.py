@@ -1,6 +1,5 @@
 from selenium import webdriver
 from UrbanRoutesPage import *
-from time import sleep
 
 
 class TestUrbanRoutes:

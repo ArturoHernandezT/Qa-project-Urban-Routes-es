@@ -174,6 +174,7 @@ class UrbanRoutesPage:
 
     def check_blankets(self):
         WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located(self.blankets))
+
         return self.driver.find_element(*self.blankets).is_selected()
 
     def set_order_2_icecream(self):
