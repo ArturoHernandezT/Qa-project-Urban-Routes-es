@@ -24,3 +24,4 @@ def retrieve_phone_code(driver) -> str:
             raise Exception("No se encontró el código de confirmación del teléfono.\n"
                             "Utiliza 'retrieve_phone_code' solo después de haber solicitado el código en tu aplicación.")
         return code
+
